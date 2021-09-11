@@ -18,6 +18,7 @@ const Article = () => {
        setArticleData(newAr);
     
        localStorage.setItem("article",JSON.stringify(newAr));
+        alert("article added successfully");
        setTimeout(()=>{
         history.push(`/ArticleList`);  
        },1000)

@@ -12,7 +12,10 @@ const ArticleList=()=>{
             let fData = await response.json();
             const temp = JSON.parse(localStorage.getItem("article"));
             console.log(temp);
-            fData = [...fData,...temp];
+             if(temp !== null)
+            {
+             fData = [...fData,...temp];
+            }
             setData(fData);
           }
 

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background-color: ghostwhite;
+    font-family: 'Poppins', sans-serif;
+
+}
+.mainContainer{
+    width: 100%;
+    height:80vh;
+}
+.navbar li:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.login_div{
+    padding: 20px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+li{
+    list-style: none;
+    margin: 25px 0px;
+}
+.userDiv{
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+/* ArticleList */
+
+.center_div{
+    padding:2rem 3rem;
+    width:100%;
+    min-height:90vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:3rem 2rem;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  .main_div{
+    height:200px;
+    color:black; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border:1.5px solid black;
+    text-align: center;
+    padding: 10px 10px;
+    }
+
+  .btn5{
+    border: none;
+    outline:none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    background: none;
+    color:white;
+    background-color:#5f9ea0;
+    border-radius: 5px;
+    border:1.5px solid black;
+    cursor: pointer;
+    font-weight:600;
+  }
+
+  .btn5:hover {
+    color: black;
+  }
+  
+  .addButton{
+    width:100%;
+    height: 70px;
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items:end;
+    align-items: center;
+  }
+
+  .addButton button{
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius:15px ;
+    color:white;
+    padding: 5px ;
+    background-color: cornflowerblue;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+  
+  .addButton button:hover {
+    color: black;
+  }
+
+  /* ArticleDetails */
+
+  .articleInfo_center{
+    width:100%;
+    height:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .articleInfo_div{
+      padding: 4rem 2rem;
+      min-width:300px;
+      max-width: 600px;
+      height:auto;
+      padding: 20px 10px;
+      color:black;
+      border: 1px solid black;
+      border-radius: 20px;
+
+    }
+    
+    .articleInfo_grid{
+     margin-top: 1rem;
+     padding-left: 1.6rem;
+     display:grid;
+     grid-template-columns: 1fr;
+     grid-gap:1rem 1rem;
+     justify-items: center;
+    }
+
+    .articleInfo_grid h3{
+        font-weight: 800;
+        font-variant: small-caps;
+        font-size: 40px;
+    }
